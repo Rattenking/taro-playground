@@ -23,7 +23,7 @@ env:
   # 版本号
   VERSION_CODE: 17400
   # 密钥库文件
-  KEYSTORE_FILE: my-release-key.keystore
+  KEYSTORE_FILE: release.keystore
   # release.keystore
   # 密钥库口令
   KEYSTORE_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
